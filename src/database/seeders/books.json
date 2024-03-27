@@ -1,0 +1,142 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "writer": "F. Scott Fitzgerald",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.5,
+    "tag": "fiction,classic"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "writer": "Harper Lee",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9.0,
+    "tag": "fiction,classic"
+  },
+  {
+    "title": "1984",
+    "writer": "George Orwell",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9.5,
+    "tag": "fiction,dystopian"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "writer": "Jane Austen",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.0,
+    "tag": "fiction,romance,classic"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "writer": "J.D. Salinger",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 7.5,
+    "tag": "fiction,coming-of-age"
+  },
+  {
+    "title": "Lord of the Rings",
+    "writer": "J.R.R. Tolkien",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9.0,
+    "tag": "fiction,fantasy"
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "writer": "J.K. Rowling",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9.0,
+    "tag": "fiction,fantasy"
+  },
+  {
+    "title": "The Hobbit",
+    "writer": "J.R.R. Tolkien",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.5,
+    "tag": "fiction,fantasy"
+  },
+  {
+    "title": "Animal Farm",
+    "writer": "George Orwell",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.0,
+    "tag": "fiction,satire"
+  },
+  {
+    "title": "Brave New World",
+    "writer": "Aldous Huxley",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.5,
+    "tag": "fiction,dystopian"
+  },
+  {
+    "title": "The Hunger Games",
+    "writer": "Suzanne Collins",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.0,
+    "tag": "fiction,dystopian"
+  },
+  {
+    "title": "The Road",
+    "writer": "Cormac McCarthy",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.5,
+    "tag": "fiction,post-apocalyptic"
+  },
+  {
+    "title": "The Martian",
+    "writer": "Andy Weir",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.0,
+    "tag": "fiction,science-fiction"
+  },
+  {
+    "title": "Jurassic Park",
+    "writer": "Michael Crichton",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.0,
+    "tag": "fiction,science-fiction"
+  },
+  {
+    "title": "The Da Vinci Code",
+    "writer": "Dan Brown",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 7.5,
+    "tag": "fiction,mystery"
+  },
+  {
+    "title": "Gone Girl",
+    "writer": "Gillian Flynn",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.0,
+    "tag": "fiction,mystery"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "writer": "Stieg Larsson",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.0,
+    "tag": "fiction,mystery"
+  },
+  {
+    "title": "The Shining",
+    "writer": "Stephen King",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.5,
+    "tag": "fiction,horror"
+  },
+  {
+    "title": "Misery",
+    "writer": "Stephen King",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.5,
+    "tag": "fiction,horror"
+  },
+  {
+    "title": "Dracula",
+    "writer": "Bram Stoker",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.0,
+    "tag": "fiction,horror,classic"
+  }
+]
