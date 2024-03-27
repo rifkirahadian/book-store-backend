@@ -8,7 +8,10 @@ export class BooksService {
     private booksRepository: typeof Book,
   ) {}
 
-  async findAll(): Promise<Book[]> {
-    return this.booksRepository.findAll<Book>();
+  async findAll(
+    limit: number,
+    offset: number,
+  ): Promise<{ rows: Book[]; count: number }> {
+    return this.booksRepository.findAndCountAll<Book>({ limit, offset });
   }
 }
