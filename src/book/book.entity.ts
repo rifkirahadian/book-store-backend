@@ -1,6 +1,9 @@
 import { Table, Column, Model } from 'sequelize-typescript';
 
-@Table
+@Table({
+  tableName: 'books',
+  timestamps: false,
+})
 export class Book extends Model {
   @Column
   title: string;

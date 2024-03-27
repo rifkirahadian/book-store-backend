@@ -1,9 +1,10 @@
 import { Module } from '@nestjs/common';
-import { SequelizeModule } from '@nestjs/sequelize';
-import { Book } from 'src/book/book.entity';
+import { booksProviders } from './book.provider';
+import { BookController } from './book.controller';
+import { BooksService } from './book.service';
 
 @Module({
-  imports: [SequelizeModule.forFeature([Book])],
-  exports: [SequelizeModule],
+  controllers: [BookController],
+  providers: [...booksProviders, BooksService],
 })
 export class BookModule {}
