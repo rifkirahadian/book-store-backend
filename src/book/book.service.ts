@@ -14,4 +14,8 @@ export class BooksService {
   ): Promise<{ rows: Book[]; count: number }> {
     return this.booksRepository.findAndCountAll<Book>({ limit, offset });
   }
+
+  async findById(id: number): Promise<Book> {
+    return this.booksRepository.findByPk(id);
+  }
 }
