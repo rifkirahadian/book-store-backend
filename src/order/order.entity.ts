@@ -17,6 +17,9 @@ export class Order extends Model {
   point: number;
 
   @Column
+  status: string;
+
+  @Column
   createdAt: Date;
 
   @Column

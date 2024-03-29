@@ -16,4 +16,16 @@ export class OrdersService {
   }): Promise<Order> {
     return this.ordersRepository.create(payload);
   }
+
+  async findAllByEmail(
+    email: string,
+    limit: number,
+    offset: number,
+  ): Promise<{ rows: Order[]; count: number }> {
+    return this.ordersRepository.findAndCountAll({
+      where: { email },
+      limit,
+      offset,
+    });
+  }
 }

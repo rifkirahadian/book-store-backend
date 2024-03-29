@@ -23,6 +23,11 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
+      status: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        defaultValue: 'pending',
+      },
       point: {
         type: Sequelize.FLOAT,
         allowNull: false,
