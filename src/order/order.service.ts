@@ -28,4 +28,13 @@ export class OrdersService {
       offset,
     });
   }
+
+  async findById(id: number): Promise<Order> {
+    return this.ordersRepository.findByPk(id);
+  }
+
+  async cancelOrder(order: Order) {
+    order.status = 'cancelled';
+    await order.save();
+  }
 }

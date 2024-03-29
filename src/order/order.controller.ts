@@ -1,4 +1,13 @@
-import { Body, Controller, Get, Post, Query, Res } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Get,
+  Param,
+  Post,
+  Put,
+  Query,
+  Res,
+} from '@nestjs/common';
 import { OrdersService } from './order.service';
 import { Response } from 'express';
 import { CreateOrderDto } from './order.dto';
@@ -45,5 +54,29 @@ export class OrderController {
       offset,
     );
     return res.json(orders);
+  }
+
+  @Put(':id/cancel')
+  async cancel(@Param('id') id: number, @Res() res: Response) {
+    const order = await this.ordersService.findById(id);
+    if (!order) {
+      return res.status(404).json({
+        status: 'not-found',
+        message: 'Order id not found',
+      });
+    }
+
+    if (order.status === 'cancelled') {
+      return res.status(400).json({
+        status: 'bad-request',
+        message: 'The order has been canceled before',
+      });
+    }
+
+    await this.ordersService.cancelOrder(order);
+
+    return res.json({
+      message: 'Order cancelled',
+    });
   }
 }
