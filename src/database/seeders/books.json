@@ -138,5 +138,222 @@
     "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
     "point": 8.0,
     "tag": "fiction,horror,classic"
+  },
+  {
+    "title": "The Alchemist",
+    "writer": "Paulo Coelho",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.9,
+    "tag": "fiction,adventure"
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "writer": "J.K. Rowling",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9.3,
+    "tag": "fiction,fantasy"
+  },
+  {
+    "title": "The Hobbit",
+    "writer": "J.R.R. Tolkien",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.7,
+    "tag": "fiction,fantasy"
+  },
+  {
+    "title": "The Da Vinci Code",
+    "writer": "Dan Brown",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.1,
+    "tag": "fiction,mystery"
+  },
+  {
+    "title": "The Hunger Games",
+    "writer": "Suzanne Collins",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.4,
+    "tag": "fiction,dystopian"
+  },
+  {
+    "title": "The Martian",
+    "writer": "Andy Weir",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.6,
+    "tag": "fiction,science-fiction"
+  },
+  {
+    "title": "The Kite Runner",
+    "writer": "Khaled Hosseini",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.8,
+    "tag": "fiction,drama"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "writer": "Stieg Larsson",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.2,
+    "tag": "fiction,mystery"
+  },
+  {
+    "title": "A Game of Thrones",
+    "writer": "George R.R. Martin",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9.1,
+    "tag": "fiction,fantasy"
+  },
+  {
+    "title": "The Road",
+    "writer": "Cormac McCarthy",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.3,
+    "tag": "fiction,dystopian"
+  },
+  {
+    "title": "The Shining",
+    "writer": "Stephen King",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.0,
+    "tag": "fiction,horror"
+  },
+  {
+    "title": "The Help",
+    "writer": "Kathryn Stockett",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.5,
+    "tag": "fiction,drama"
+  },
+  {
+    "title": "Gone Girl",
+    "writer": "Gillian Flynn",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.7,
+    "tag": "fiction,mystery"
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "writer": "John Green",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.9,
+    "tag": "fiction,romance"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "writer": "Thomas Harris",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.4,
+    "tag": "fiction,thriller"
+  },
+  {
+    "title": "The Lovely Bones",
+    "writer": "Alice Sebold",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.1,
+    "tag": "fiction,drama"
+  },
+  {
+    "title": "Life of Pi",
+    "writer": "Yann Martel",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9.2,
+    "tag": "fiction,adventure"
+  },
+  {
+    "title": "The Time Traveler's Wife",
+    "writer": "Audrey Niffenegger",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.6,
+    "tag": "fiction,romance"
+  },
+  {
+    "title": "The Secret Life of Bees",
+    "writer": "Sue Monk Kidd",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.3,
+    "tag": "fiction,drama"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "writer": "Gabriel García Márquez",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9.4,
+    "tag": "fiction,magic-realism"
+  },
+  {
+    "title": "The Notebook",
+    "writer": "Nicholas Sparks",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.2,
+    "tag": "fiction,romance"
+  },
+  {
+    "title": "The Giver",
+    "writer": "Lois Lowry",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.5,
+    "tag": "fiction,dystopian"
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "writer": "Oscar Wilde",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.9,
+    "tag": "fiction,classic"
+  },
+  {
+    "title": "Little Women",
+    "writer": "Louisa May Alcott",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.7,
+    "tag": "fiction,classic"
+  },
+  {
+    "title": "The Goldfinch",
+    "writer": "Donna Tartt",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.3,
+    "tag": "fiction,drama"
+  },
+  {
+    "title": "The Night Circus",
+    "writer": "Erin Morgenstern",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.1,
+    "tag": "fiction,fantasy"
+  },
+  {
+    "title": "The Maze Runner",
+    "writer": "James Dashner",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.4,
+    "tag": "fiction,dystopian"
+  },
+  {
+    "title": "The Help",
+    "writer": "Kathryn Stockett",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.5,
+    "tag": "fiction,drama"
+  },
+  {
+    "title": "The Great Alone",
+    "writer": "Kristin Hannah",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.7,
+    "tag": "fiction,thriller"
+  },
+  {
+    "title": "The Silent Patient",
+    "writer": "Alex Michaelides",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 8.9,
+    "tag": "fiction,thriller"
+  },
+  {
+    "title": "Educated",
+    "writer": "Tara Westover",
+    "cover_image": "https://images-na.ssl-images-amazon.com/images/I/51Ga5GuElyL._AC_SX184_.jpg",
+    "point": 9.1,
+    "tag": "non-fiction,biography"
   }
 ]
