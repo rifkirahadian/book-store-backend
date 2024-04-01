@@ -1,5 +1,6 @@
 import { Injectable, Inject } from '@nestjs/common';
 import { Book } from './book.entity';
+import { Op } from 'sequelize';
 
 @Injectable()
 export class BooksService {
@@ -11,8 +12,16 @@ export class BooksService {
   async findAll(
     limit: number,
     offset: number,
+    search: string,
   ): Promise<{ rows: Book[]; count: number }> {
-    return this.booksRepository.findAndCountAll<Book>({ limit, offset });
+    const where = search
+      ? {
+          title: {
+            [Op.iLike]: `%${search}%`,
+          },
+        }
+      : {};
+    return this.booksRepository.findAndCountAll<Book>({ limit, offset, where });
   }
 
   async findById(id: number): Promise<Book> {
