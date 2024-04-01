@@ -1,5 +1,6 @@
 import { Injectable, Inject } from '@nestjs/common';
 import { Order } from './order.entity';
+import { Book } from 'src/book/book.entity';
 
 @Injectable()
 export class OrdersService {
@@ -26,6 +27,7 @@ export class OrdersService {
       where: { email },
       limit,
       offset,
+      include: [Book],
     });
   }
 

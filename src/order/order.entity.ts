@@ -1,4 +1,11 @@
-import { Table, Column, Model } from 'sequelize-typescript';
+import {
+  Table,
+  Column,
+  Model,
+  BelongsTo,
+  ForeignKey,
+} from 'sequelize-typescript';
+import { Book } from 'src/book/book.entity';
 
 @Table({
   tableName: 'orders',
@@ -10,6 +17,7 @@ export class Order extends Model {
   @Column
   email: string;
 
+  @ForeignKey(() => Book)
   @Column
   bookId: number;
 
@@ -24,4 +32,7 @@ export class Order extends Model {
 
   @Column
   updatedAt: Date;
+
+  @BelongsTo(() => Book)
+  book: Book[];
 }
