@@ -3,24 +3,24 @@
     "dialect": "postgres",
     "host": "localhost",
     "port": 5432,
-    "username": "postgres",
-    "password": "rayyan",
-    "database": "book_store"
+    "username": "",
+    "password": "",
+    "database": ""
   },
   "test": {
     "dialect": "postgres",
     "host": "localhost",
     "port": 5432,
-    "username": "roku",
-    "password": "roku",
-    "database": "test"
+    "username": "",
+    "password": "",
+    "database": ""
   },
   "production": {
     "dialect": "postgres",
     "host": "localhost",
     "port": 5432,
-    "username": "roku",
-    "password": "roku",
-    "database": "prod"
+    "username": "",
+    "password": "",
+    "database": ""
   }
 }
